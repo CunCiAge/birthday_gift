@@ -1,0 +1,122 @@
+*{
+    padding:0;
+    margin:0;
+    background-color: #fccfd2;
+}
+.present_box{
+    padding: 50px 0px;
+}
+.box_img{
+    display: flex;
+    justify-content: center;
+}
+.present_box img{
+    padding: 120px 0px;
+    width: 900px;
+    height: 900px;
+}
+.box_button{
+    text-align: center;
+}
+.box_button button{
+    width: 12%;
+    height: 40px;
+    appearance: button;
+    backface-visibility: hidden;
+    background-color:#f6b47e;
+    border-radius: 6px;
+    border-width: 0;
+    box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset,rgba(50, 50, 93, .1) 0 2px 5px 0,rgba(0, 0, 0, .07) 0 1px 1px 0;
+    box-sizing: border-box;
+    color: #130102;
+    cursor: pointer;
+    font-family: -apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Ubuntu,sans-serif;
+    font-size: 100%;
+    height: 44px;
+    line-height: 1.15;
+    margin: 12px 0 0;
+    outline: none;
+    overflow: hidden;
+    padding: 0 25px;
+    position: relative;
+    text-align: center;
+    text-transform: none;
+    transform: translateZ(0);
+    transition: all .2s,box-shadow .08s ease-in;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.box_button button:disabled {
+  cursor: default;
+}
+
+.box_button button:focus {
+  box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset, rgba(50, 50, 93, .2) 0 6px 15px 0, rgba(0, 0, 0, .1) 0 2px 2px 0, rgba(50, 151, 211, .3) 0 0 0 4px;
+}
+.box_button video{
+    width: 800px;
+    position: relative;
+    top:0px;
+    padding: 120px;
+}
+.img_for_fun_place{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+.temp_for_fun_place{
+    padding: 50px 0px;
+    display: flex;
+    justify-content: center;
+}
+.for_fun_place h2{
+    background-color:#fbf8c1;
+    color: #130102;
+    width: 30%;
+    height: 50%;
+    font-size: 27px;
+    border: 2px solid #fbf8c1;
+    text-align: center;
+}
+.first_img p{
+    font-size: 20px;
+    background-color:#fbf8c1;
+    color: #130102;
+    height: 30px;
+}
+.second_img{
+    width:300px;
+}
+.third_img{
+    width: 300px;
+}
+.inclusion{
+    padding: 100px 0px;
+}
+.f1{
+    display: flex;
+    justify-content: center;
+    padding: 50px 0px;
+}
+.inclusion h2{
+    background-color:#fbf8c1;
+    color: #130102;
+    width: 30%;
+    height: 50%;
+    font-size: 27px;
+    border: 2px solid #fbf8c1;
+    text-align: center;
+}
+.inclusion h6{
+    width: 70%;
+    background-color: #f6b47e;
+    font-size: 20px;
+    padding: 10px 0px;
+    text-align: center;
+}
+.f2{
+    display: flex;
+    justify-content: center;
+}
